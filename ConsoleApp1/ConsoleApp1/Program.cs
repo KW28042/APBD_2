@@ -8,3 +8,10 @@ static double Average(int[] integers)
     foreach (var i in integers) sum += i;
     return (double)sum / integers.Length;
 }
+
+static double AverageDouble(double[] doubles)
+{
+    double sum = 0;
+    foreach (var d in doubles) sum += d;
+    return sum / doubles.Length;
+}
